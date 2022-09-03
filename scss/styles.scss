@@ -1,0 +1,137 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom:16px
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 219, 219);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        padding: 0 40px;
+        font-size: 24px;
+    }
+}
+
+.account {
+    display: flex;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(77, 246, 189, 0.5), rgba(77, 246, 189, 0.5)), 
+            url(../images/clouds.jpg);
+}
+
+.login-here {
+    width: 50%;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-here {
+    width: 50%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(127, 252, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #gwInput {
+        width: 200px;
+    }
+    #gwInput2 {
+        width: 200px;
+    }
+
+    #gw {
+        width: 160px;
+    }
+}
+
+
+#output {
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(77, 246, 189);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(77, 246, 189, 0.5), rgba(77, 246, 189, 0.5)), 
+            url(../images/clouds.jpg);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .outputblock {
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:flex-start;
+
+        .content {
+            width: 200px;
+            height: 440px;
+            background-color: rgb(0, 219, 219);
+
+            margin: 50px;
+            padding: 15px;
+        }
+    }
+
+    .image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+button {
+    width: 100px;
+    height: 50px;
+
+    margin: 10px;
+    border-radius: 25px;
+
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #99ffff;
+}

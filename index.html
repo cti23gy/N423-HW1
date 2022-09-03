@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 1</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#/login">Login</a>
+      <a href="#/home">Home</a>
+    </nav>
+
+    <div class="app" id="app"></div>
+
+    <div class="form">
+      <h1>Get the Weather Here!</h1>
+      <input
+        id="gwInput"
+        type="text"
+        placeholder="Input location for weather."
+      />
+      <br />
+      <input
+        id="gwInput2"
+        type="text"
+        placeholder="How many days in forecast?"
+      />
+      <button id="gw">Get me Weather</button>
+    </div>
+
+    <div id="output" class="output"></div>
+
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script type="module" src="app/model.js"></script>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>

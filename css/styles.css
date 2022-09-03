@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px; }
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #00dbdb;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  nav a {
+    text-decoration: none;
+    padding: 0 40px;
+    font-size: 24px; }
+
+.account {
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(to right, rgba(77, 246, 189, 0.5), rgba(77, 246, 189, 0.5)), url(../images/clouds.jpg); }
+
+.login-here {
+  width: 50%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.sign-up-here {
+  width: 50%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.form {
+  width: 100%;
+  height: 200px;
+  background-color: #7ffcd3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .form #gwInput {
+    width: 200px; }
+  .form #gwInput2 {
+    width: 200px; }
+  .form #gw {
+    width: 160px; }
+
+#output {
+  width: 100%;
+  min-height: 500px;
+  background-color: #4df6bd;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(to right, rgba(77, 246, 189, 0.5), rgba(77, 246, 189, 0.5)), url(../images/clouds.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px; }
+  #output h2 {
+    font-size: 40px; }
+  #output .outputblock {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; }
+    #output .outputblock .content {
+      width: 200px;
+      height: 440px;
+      background-color: #00dbdb;
+      margin: 50px;
+      padding: 15px; }
+  #output .image {
+    width: 100px;
+    height: 100px; }
+
+button {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 20px; }
+
+button:hover {
+  background-color: #99ffff; }

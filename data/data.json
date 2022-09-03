@@ -1,0 +1,23 @@
+{
+    "LISTOFDATA": [
+        {
+            "name": "Todd",
+            "year": 2008,
+            "price": 53.69,
+            "stock": 18
+
+        },
+        {
+            "name": "Caleb",
+            "year": 2008,
+            "price": 53.69,
+            "stock": 18
+        },
+        {
+            "name": "Mario",
+            "year": 2008,
+            "price": 53.69,
+            "stock": 18
+        }
+    ]
+}
